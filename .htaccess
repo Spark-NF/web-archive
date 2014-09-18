@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule	view/(\w{32})-(.+)	index.php?view=$2&md5=$1	[L]
+RewriteRule	view/(\d{14})-(.+)	index.php?view=$2&date=$1	[L]
+RewriteRule	view/(.+)			index.php?view=$1			[L]
