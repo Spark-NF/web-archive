@@ -1,4 +1,4 @@
-# Conqueror
+# Web archive
 
 ## About
 PHP web archiver.
